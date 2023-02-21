@@ -1,0 +1,115 @@
+.containerLogin{
+    display: flex;
+    background-image: url(../../../../img/17973908.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 59.25rem;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.container-img h1 {
+    display: flex;
+    color: #6c757d;
+    font-size: 50px;
+}
+
+.container-img span {
+    display: flex;
+    margin-left: 0.5vw;
+    color:rgb(85, 72, 200);
+}
+
+.container-form {
+    display: flex;
+    background-color: rgb(84, 72, 200, 0.8);
+    backdrop-filter: 16px;
+    width: 45vw;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-left: 96px;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70%;
+    margin: 25vh 10vw;
+    width: 70%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+
+.formLogin input {
+    border: 0;
+    border-bottom: solid 1px white;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.typeDni p {
+    padding: 0px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.typeDni input {
+    width: 35vw;
+}
+
+.typeDni {
+    display: flex;
+    flex-direction: column;
+}
+
+.dniNum input {
+    width: 35vw;
+}
+
+.dniNum {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.clave {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.clave input {
+    width: 35vw;
+}
+
+.btn-login button {
+    width: 35vw;
+    height: 4vh;
+    border: none;
+    border-radius: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.footer p {
+    width: 5vw;
+    margin: 0vh 15vw;
+}

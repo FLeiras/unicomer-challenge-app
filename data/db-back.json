@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "dni": 30814182,
+            "password": 123456,
+            "nombre": "Federico",
+            "apellido": "Leiras",
+            "detail": [{"ingresos": 18.030, "egresos": 10.520}]
+        },
+        {
+            "id": 2,
+            "dni": 28384732,
+            "password": 1234567,
+            "nombre": "Alejandra",
+            "apellido": "Estevez",
+            "detail": [{"ingresos": 23.030, "egresos": 9.520}]
+        },
+        {
+            "id": 3,
+            "dni": 12345678,
+            "password": 123123,
+            "nombre": "Raúl",
+            "apellido": "Goméz",
+            "detail": [{"ingresos": 48.030, "egresos": 8.520}]
+        }
+    ]
+}
