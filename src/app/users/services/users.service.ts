@@ -6,11 +6,11 @@ import { environments } from 'src/environments/env';
 
 @Injectable({ providedIn: 'root' })
 export class UserService {
-  constructor(private httpClient: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
   private baseUrl: string = environments.baseUrl;
 
   getUsers(): Observable<User[]> {
-    return this.httpClient.get<User[]>(`${this.baseUrl}/users`);
+    return this.http.get<User[]>(`${this.baseUrl}/users`);
   }
 }

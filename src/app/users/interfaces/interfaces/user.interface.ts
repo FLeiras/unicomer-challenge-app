@@ -2,11 +2,10 @@
 
 export interface User {
   id: number;
-  dni: number;
-  password: number;
   nombre: string;
   apellido: string;
   detail: Detail[];
+  saldo: number;
 }
 
 export interface Detail {

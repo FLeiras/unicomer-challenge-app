@@ -2,27 +2,39 @@
     "users": [
         {
             "id": 1,
-            "dni": 30814182,
-            "password": 123456,
             "nombre": "Federico",
             "apellido": "Leiras",
-            "detail": [{"ingresos": 18030, "egresos": 10520}]
+            "detail": [{"ingresos": 18030, "egresos": 10520}],
+            "saldo": 260000
         },
         {
             "id": 2,
-            "dni": 28384732,
-            "password": 1234567,
             "nombre": "Alejandra",
             "apellido": "Estevez",
-            "detail": [{"ingresos": 23030, "egresos": 9520}]
+            "detail": [{"ingresos": 23030, "egresos": 9520}],
+            "saldo": 1230000
         },
         {
             "id": 3,
-            "dni": 12345678,
-            "password": 123123,
             "nombre": "Raúl",
             "apellido": "Goméz",
-            "detail": [{"ingresos": 48030, "egresos": 8520}]
+            "detail": [{"ingresos": 48030, "egresos": 8520}],
+            "saldo": 325000
+        }
+    ],
+    "userLogin": [
+        {
+            "dni": 30814182,
+            "password": 123456
+        },
+        {
+            "dni": 28384732,
+            "password": 1234567
+        },
+        {
+            "dni": 12345678,
+            "password": 123123
         }
     ]
+    
 }
